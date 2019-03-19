@@ -1,0 +1,15 @@
+.partner {
+    background: #eaeaea;
+    padding: 3.2rem 0;
+
+    &__img {
+        height: 1.5rem;
+        &--bfm{
+            height: 2.5rem;
+        }
+
+        &--tribune{
+            height: 2.5rem;
+        }
+    }
+}

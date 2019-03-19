@@ -1,0 +1,42 @@
+.values {
+    padding: 2.5rem 0 2.5rem;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 0;
+    }
+
+    &__title {
+        font-size: 2.4rem;
+        padding: 1rem 0;
+        text-align: center;
+        color: #1e629f;
+    }
+
+    &__desc {
+        padding: 1rem;
+        font-size: 1.4rem;
+        line-height: 2;
+        text-align: center;
+        font-weight: unset;
+
+        &--bis {
+            color: #1e629f;
+        }
+    }
+}
+
+.rounded {
+    width: 100px;
+}
+
+.white{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    opacity: .4;
+}

@@ -1,0 +1,41 @@
+@import './mixins/medias';
+@import './header';
+@import './values';
+@import './concierge';
+@import './info';
+@import './customer';
+@import './reset.css';
+@import './hero';
+@import './heroBottom';
+@import './faq';
+@import './partners';
+@import './footer';
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+
+html {
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+    font-weight: unset;
+}
+
+.containers {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 8px;
+    padding-left: 8px;
+
+    @media only screen and(min-width: 768px) {
+        width: 1184px;
+        max-width: 100%;
+    }
+}
+
+span {
+    color: #fff;
+    background: rgba(238, 195, 21, .7);
+    padding: 0.6rem;
+}

@@ -1,0 +1,42 @@
+.faq {
+    position: relative;
+    padding: 4rem 0;
+    background: #fff;
+    margin-top: 6rem;
+
+    &__title {
+        padding: 0 2.4rem 2.4rem;
+        text-align: center;
+        font-size: 1.8rem;
+        color: #1e629f;
+    }
+
+    &__container {
+        color: #1e629f;
+        font-size: 1.4rem;
+        line-height: 1.8;
+    }
+
+    &__items {
+        padding: 1rem 2rem;
+        margin: 1rem 0;
+        border-radius: .4rem;
+        border: 1px solid #eaeaea;
+        cursor: pointer;
+
+        &--top {
+            margin: 0;
+
+            @media only screen and(min-width: 768px) {
+                margin-top: 1rem;
+            }
+        }
+    }
+
+    &__text {
+        margin: 1.2rem 0;
+        line-height: 1.8;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+}

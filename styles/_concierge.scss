@@ -1,0 +1,99 @@
+.white {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    opacity: .5;
+}
+
+.concierge {
+    background: url(/assets/images/section__conciergerie.jpg);
+    background-size: cover;
+    background-position: 15% 0;
+    padding: 2.5rem 1rem 4rem;
+    position: relative;
+
+    @media only screen and(min-width: 768px) {
+
+        text-align: center;
+        padding: 6rem 2.4rem 0rem;
+        background-position: left 90%;
+    }
+
+    &__content {
+        flex-direction: inherit;
+        width: 100%;
+    }
+
+    &__rounded {
+        position: relative;
+        align-content: center;
+        width: 100px;
+    }
+
+    &__title {
+        color: #1e629f;
+        font-size: 2rem;
+
+        @media only screen and(min-width: 768px) {
+            font-size: 3.6rem;
+            text-align: right;
+        }
+    }
+
+    &__desc {
+        margin-top: 1rem;
+        font-size: 1.4rem;
+        color: #1e629f;
+
+        @media only screen and(min-width: 768px) {
+            font-size: 1.6rem;
+            text-align: right;
+            margin-top: 3rem;
+        }
+    }
+
+    &__container {
+        padding: 2rem 0;
+
+        @media (min-width: 768px) {
+            margin-top: 6rem;
+            margin-bottom: 10rem;
+        }
+    }
+
+    &__container:hover {
+        transform: translateY(-1rem);
+        transition-duration: .4s;
+    }
+
+    &__items {
+        margin-bottom: 3.6rem;
+        position: relative;
+
+        @media (min-width: 768px) {
+            margin-bottom: 10rem;
+        }
+    }
+
+    &__item {
+        position: relative;
+        font-size: 1.6rem;
+        color: #1e629f;
+
+        &--reverse {
+            margin-left: 2.5rem;
+            text-align: right;
+            @media only screen and(min-width: 768px) {
+                text-align: center;
+                margin-left: 0;
+            }
+        }
+
+        @media only screen and(min-width:768px) {
+            text-align: center;
+        }
+    }
+}
